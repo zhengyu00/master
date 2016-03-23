@@ -8,7 +8,8 @@ class IndexController extends Controller {
     public function info(){
        echo phpinfo();
     }
-    public function hello(){
-        echo 'say hi';
+    public function yes(){
+        echo 'yes';
     }
+
 }
